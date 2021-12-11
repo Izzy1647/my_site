@@ -31,13 +31,16 @@
 		}
 		.job {
 			margin: 1em;
-			p{
-				margin: 0;
-			}
 		}
 	}
 
 	.jobs-container {
+		// .description {
+		p{
+			margin: 0;
+			font-size: 14px;
+		}
+		// }
 		.points {
 			li {
 				margin: 0;
