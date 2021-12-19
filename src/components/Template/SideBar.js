@@ -29,11 +29,13 @@ const SideBar = () => (
         , <a target="_blank" rel="noreferrer" href="https://www.wudizu.com/zh/">Dangfei Tech</a>
         , and <a target="_blank" rel="noreferrer" href="https://www.stec.net/">STEC</a>.
       </p>
-      <ul className="actions">
+      {/* <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume')
+            ? <Link to="/resume" className="button">Learn More</Link>
+            : <Link to="/about" className="button">About Me</Link>}
         </li>
-      </ul>
+      </ul> */}
     </section>
 
     <section id="footer">
