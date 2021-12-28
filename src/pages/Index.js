@@ -15,12 +15,12 @@ const Index = () => (
           <p>Great source by <a target="_blank" rel="noreferrer" href="https://github.com/mldangelo/personal-site">MICHAEL D&apos;ANGELO</a>👏</p>
         </div>
       </header>
-      <p>
+      {/* <p>
         I intend to build a site where my resume and blogs and projects can be displayed.
       </p>
       <p>
         This begins at 2021/08/15⌚️.
-      </p>
+      </p> */}
       {/* <p> Welcome to my website. Please
         feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import Blog from '../components/Posts/Blog';
 
-// import Cell from '../components/Projects/Cell';
 // import data from '../data/projects';
 
 const Posts = () => (
@@ -11,20 +11,14 @@ const Posts = () => (
     title="Posts"
     description="My blog posts."
   >
-    <article className="post" id="projects">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading"><Link to="/posts">Posts</Link></h2>
-          <p>Blogs I&apos;ve written.</p>
-        </div>
-      </header>
-      {/* {data.map((project) => (
-        <Cell
-          data={project}
-          key={project.title}
-        />
-      ))} */}
-    </article>
+    <Blog
+      data={{
+        title: '1',
+        date: 'a',
+        desc: 'as',
+        article: 'as',
+      }}
+    />
   </Main>
 );
 
