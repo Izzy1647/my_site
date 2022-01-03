@@ -4,10 +4,10 @@ const routes = [
     label: 'Zhiyu Zhou',
     path: '/',
   },
-  {
-    label: 'About',
-    path: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   path: '/about',
+  // },
   {
     label: 'Resume',
     path: '/resume',
@@ -16,10 +16,10 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
-  {
-    label: 'posts',
-    path: '/posts',
-  },
+  // {
+  //   label: 'posts',
+  //   path: '/posts',
+  // },
   // {
   //   label: 'Stats',
   //   path: '/stats',
