@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/projects/me.jpg`} alt="" />
       </Link>
       <header>
         <h2>Zhiyu Zhou</h2>
@@ -23,10 +23,10 @@ const SideBar = () => (
       <p>Hi, I&apos;m Zhiyu.
         I am a <a target="_blank" rel="noreferrer" href="https://cs.shu.edu.cn/"> Shanghai University CS</a> graduate,
         a current postgraduate student
-        at <a target="_blank" rel="noreferrer" href="https://www.manchester.ac.uk/study/masters/courses/list/08354/msc-acs-software-engineering/">the University of Manchester (ACS: Software Engineering)</a>,
+        at <a target="_blank" rel="noreferrer" href="https://www.cs.manchester.ac.uk/">the University of Manchester (ACS: Software Engineering)</a>,
         and once the co-founder of Genial(unfortunately shut down already).
         Before Genial I was at <a href="https://www.qiniu.com/">Qiniu Ltd.</a>
-        , <a target="_blank" rel="noreferrer" href="https://www.wudizu.com/zh/">Dangfei Tech</a>
+        , <a target="_blank" rel="noreferrer" href="https://www.wudizu.com/en/">Dangfei Tech</a>
         , and <a target="_blank" rel="noreferrer" href="https://www.stec.net/">STEC</a>.
       </p>
       {/* <ul className="actions">
