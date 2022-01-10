@@ -17,10 +17,10 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>My Wechat ID: 15921435335</p>
         <p>My phone number: +44 7902405064 </p>
         Email me
         at: <a href="mailto:zhouhoushu@126.com">zhouhoushu@126.com</a>
+        <p>My Wechat ID: 15921435335</p>
         <p>Or with any icon down there ⬇️</p>
       </div>
       <ContactIcons />
