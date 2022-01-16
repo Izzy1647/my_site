@@ -4,48 +4,53 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
+    competency: 9,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'Node.JS',
-    competency: 2,
+    competency: 6,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'React',
-    competency: 3,
+    competency: 7,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Heroku',
-    competency: 1,
+    competency: 4,
     category: ['Web Development', 'Tools'],
   },
   {
     title: 'MongoDB',
-    competency: 1,
+    competency: 6,
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'Express.JS',
-    competency: 1,
-    category: ['Web Development', 'Javascript'],
+    title: 'SQL',
+    competency: 5,
+    category: ['Databases'],
   },
   {
     title: 'Git',
-    competency: 2,
+    competency: 6,
     category: ['Tools'],
   },
   {
     title: 'Typescript',
-    competency: 3,
+    competency: 7,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'HTML + CSS',
-    competency: 3,
+    competency: 7,
     category: ['Web Development', 'Languages'],
+  },
+  {
+    title: 'Python',
+    competency: 5,
+    category: ['Languages'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -53,25 +58,21 @@ const skills = [
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
   '#6968b3',
-  '#37b1f5',
-  '#40494e',
-  '#515dd4',
-  '#e47272',
-  '#cc7b94',
-  '#3896e2',
-  '#c3423f',
-  '#d75858',
-  '#747fff',
-  '#64cb7b',
+  '#141415',
+  // '#40D04F',
+  '#034694', // chelsea blue
+  '#FEC524', // nuggets yellow
+  '#EE2737', // shu red ...sheffield united!
 ];
 
 const categories = [
   ...new Set(skills.reduce((acc, { category }) => acc.concat(category), [])),
 ]
   .sort()
-  .map((category, index) => ({
+  .map((category) => ({
     name: category,
-    color: colors[index],
+    color: colors[Math.floor(Math.random() * colors.length)],
+    // color: colors[index],
   }));
 
 export { categories, skills };
