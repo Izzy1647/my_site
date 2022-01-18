@@ -18,6 +18,11 @@ const skills = [
     category: ['Web Development', 'Javascript'],
   },
   {
+    title: 'Vue',
+    competency: 6,
+    category: ['Web Development', 'Javascript'],
+  },
+  {
     title: 'Heroku',
     competency: 4,
     category: ['Web Development', 'Tools'],
