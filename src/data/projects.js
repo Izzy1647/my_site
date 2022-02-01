@@ -11,6 +11,14 @@ const data = [
       + 'Match by recommendation algorithm.',
   },
   {
+    title: 'teamcolor',
+    subtitle: 'teamcolor',
+    image: '/images/projects/genial.jpg',
+    date: '2022-01-30',
+    desc:
+      'A tiny for Chinese basketball league fans to look up for the theme color of their favourite teams.',
+  },
+  {
     title: 'Gymhelper',
     subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
     image: '/images/projects/gymhelper.jpg',
