@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Teamcolor',
+    subtitle: 'Teamcolor',
+    link: 'https://teamcolor.vercel.app',
+    image: '/images/projects/teamcolor.jpg',
+    date: '2022-02-01',
+    desc: 'A website to look up for the theme color of the team you support in CBA and CSL.',
+  },
+  {
     title: 'Genial',
     subtitle: 'Genial',
     image: '/images/projects/genial.jpg',
@@ -9,14 +17,6 @@ const data = [
       'Built for career connections. '
       + 'Get a match every week and communicate via online video chatting. '
       + 'Match by recommendation algorithm.',
-  },
-  {
-    title: 'teamcolor',
-    subtitle: 'teamcolor',
-    image: '/images/projects/genial.jpg',
-    date: '2022-01-30',
-    desc:
-      'A tiny for Chinese basketball league fans to look up for the theme color of their favourite teams.',
   },
   {
     title: 'Gymhelper',
