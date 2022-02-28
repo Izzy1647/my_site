@@ -1,17 +1,13 @@
-import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
+// import PropTypes from 'prop-types';
 // import { Link } from 'react-router-dom';
 import raw from 'raw.macro';
 import ReactMarkdown from 'react-markdown';
 // import dayjs from 'dayjs';
 
-// uses babel to load contents of file
-const markdown = raw('../../data/blogs/tips.md');
-
 const BlogDetail = () => {
-  useEffect(() => {
-
-  }, []);
+  // uses babel to load contents of file
+  const markdown = raw('../../data/blog/posts/tips.md');
   return (
     <ReactMarkdown
       source={markdown}
@@ -20,13 +16,8 @@ const BlogDetail = () => {
   );
 };
 
-BlogDetail.propTypes = {
-  data: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired,
-    article: PropTypes.string.isRequired,
-  }).isRequired,
-};
+// BlogDetail.propTypes = {
+//   title: PropTypes.string.isRequired,
+// };
 
 export default BlogDetail;

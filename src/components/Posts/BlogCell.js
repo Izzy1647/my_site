@@ -3,13 +3,12 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 // import dayjs from 'dayjs';
 
-const Blog = ({ data }) => (
+const BlogCell = ({ data }) => (
   <article className="post" id="projects">
     <div className="title">
       <h2 data-testid="heading">
-        <Link to="/posts">{data.title}</Link>
+        {data.title}
       </h2>
-      <p>{data.desc}</p>
       <div>
         <Link to={`/detail?title=${data.title}`}>Read more</Link>
       </div>
@@ -17,7 +16,7 @@ const Blog = ({ data }) => (
   </article>
 );
 
-Blog.propTypes = {
+BlogCell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
@@ -26,4 +25,4 @@ Blog.propTypes = {
   }).isRequired,
 };
 
-export default Blog;
+export default BlogCell;

@@ -4,10 +4,6 @@ const routes = [
     label: 'Zhiyu Zhou',
     path: '/',
   },
-  // {
-  //   label: 'About',
-  //   path: '/about',
-  // },
   {
     label: 'Resume',
     path: '/resume',
@@ -16,18 +12,22 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
+  {
+    label: 'posts',
+    path: '/posts',
+  },
+  {
+    label: 'Contact',
+    path: '/contact',
+  },
   // {
-  //   label: 'posts',
-  //   path: '/posts',
+  //   label: 'About',
+  //   path: '/about',
   // },
   // {
   //   label: 'Stats',
   //   path: '/stats',
   // },
-  {
-    label: 'Contact',
-    path: '/contact',
-  },
 ];
 
 export default routes;
