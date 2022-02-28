@@ -10,7 +10,7 @@ const BlogCell = ({ data }) => (
         {data.title}
       </h2>
       <div>
-        <Link to={`/detail?title=${data.title}`}>Read more</Link>
+        <Link to={`/detail/${data.title}`}>Read more</Link>
       </div>
     </div>
   </article>

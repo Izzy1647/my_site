@@ -5,9 +5,11 @@ import raw from 'raw.macro';
 import ReactMarkdown from 'react-markdown';
 // import dayjs from 'dayjs';
 
-const BlogDetail = () => {
+// eslint-disable-next-line react/prop-types
+const BlogDetail = ({ title }) => {
+  // const title = '2020年的第一场雪';
   // uses babel to load contents of file
-  const markdown = raw('../../data/blog/posts/tips.md');
+  const markdown = raw(`../../data/blog/posts/${title}.md`);
   return (
     <ReactMarkdown
       source={markdown}
