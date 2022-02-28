@@ -5,11 +5,12 @@ const positions = [
     position: 'Co-founder',
     link: 'http://www.genial.ltd',
     daterange: 'December 2020 - May 2021',
-    description: 'Tried to build career connections for users by matching them with others and setting up video meetings for them.',
+    description:
+      'Tried to build career connections for users by matching them with others and setting up video meetings for them.',
     points: [
       'Built the site and deployed it onto Aliyun cloud server.',
-      'Used Agora sdk for video meeting module.',
-    ],
+      'Used Agora sdk for video meeting module.'
+    ]
   },
   {
     company: 'Qiniu Cloud ltd.',
@@ -20,19 +21,19 @@ const positions = [
     points: [
       'Develop React components for new features;',
       'Write components docs with Storybook;',
-      'Write unit tests with Jest.',
-    ],
+      'Write unit tests with Jest.'
+    ]
   },
   {
     company: 'Dangfei Tech',
     position: 'Software Engineer Summer Intern',
     link: 'http://wudizu.com',
     daterange: 'July 2019 - August 2019',
-    description: 'Produced softwares to meet customers\' requirements.',
+    description: "Produced softwares to meet customers' requirements.",
     points: [
       'Develop Wechat mini-programs using Vue.js(uni-app), Express.js and mongodb.',
-      'Work with teams in agile development process',
-    ],
+      'Work with teams in agile development process'
+    ]
   },
   {
     company: 'Shanghai Tunnel Engineering Co. Ltd.',
@@ -41,9 +42,9 @@ const positions = [
     daterange: 'July 2018 - August 2018',
     points: [
       'Install, configure and maintain hardware, software, operating system, network, etc;',
-      'Provide technical support for employees.',
-    ],
-  },
-];
+      'Provide technical support for employees.'
+    ]
+  }
+]
 
-export default positions;
+export default positions

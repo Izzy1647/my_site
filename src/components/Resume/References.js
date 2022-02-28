@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const References = () => (
   <div className="references">
@@ -10,6 +10,6 @@ const References = () => (
       </Link>
     </div>
   </div>
-);
+)
 
-export default References;
+export default References

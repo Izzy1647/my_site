@@ -1,20 +1,25 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const Job = ({ data }) => (
   <article className="jobs-container">
     <header>
-      <h4><a href={data.link} target="_blank" rel="noreferrer">{data.company}</a> - {data.position}</h4>
+      <h4>
+        <a href={data.link} target="_blank" rel="noreferrer">
+          {data.company}
+        </a>{' '}
+        - {data.position}
+      </h4>
       <p className="daterange"> {data.daterange}</p>
     </header>
     <p className="description">{data.description}</p>
     <ul className="points">
-      {data.points.map((point) => (
+      {data.points.map(point => (
         <li key={point}>{point}</li>
       ))}
     </ul>
   </article>
-);
+)
 
 Job.propTypes = {
   data: PropTypes.shape({
@@ -23,8 +28,8 @@ Job.propTypes = {
     position: PropTypes.string.isRequired,
     daterange: PropTypes.string.isRequired,
     description: PropTypes.isRequired,
-    points: PropTypes.arrayOf(PropTypes.string).isRequired,
-  }).isRequired,
-};
+    points: PropTypes.arrayOf(PropTypes.string).isRequired
+  }).isRequired
+}
 
-export default Job;
+export default Job

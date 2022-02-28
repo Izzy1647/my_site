@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const CategoryButton = ({ handleClick, active, label }) => (
   <button
@@ -9,12 +9,12 @@ const CategoryButton = ({ handleClick, active, label }) => (
   >
     {label}
   </button>
-);
+)
 
 CategoryButton.propTypes = {
   label: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
-  active: PropTypes.objectOf(PropTypes.bool.isRequired).isRequired,
-};
+  active: PropTypes.objectOf(PropTypes.bool.isRequired).isRequired
+}
 
-export default CategoryButton;
+export default CategoryButton

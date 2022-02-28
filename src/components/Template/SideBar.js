@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-import ContactIcons from '../Contact/ContactIcons';
+import ContactIcons from '../Contact/ContactIcons'
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+const { PUBLIC_URL } = process.env // set automatically from package.json:homepage
 
 const SideBar = () => (
   <section id="sidebar">
@@ -13,21 +13,39 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Zhiyu Zhou</h2>
-        <p>+44  7902405064</p>
-        <p><a href="mailto:zhouhoushu@126.com">zhouhoushu@126.com</a></p>
+        <p>+44 7902405064</p>
+        <p>
+          <a href="mailto:zhouhoushu@126.com">zhouhoushu@126.com</a>
+        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Zhiyu.
-        I am a <a target="_blank" rel="noreferrer" href="https://cs.shu.edu.cn/"> Shanghai University CS</a> graduate,
-        a current postgraduate student
-        at <a target="_blank" rel="noreferrer" href="https://www.cs.manchester.ac.uk/">the University of Manchester (ACS: Software Engineering)</a>,
-        and once the co-founder of Genial(unfortunately shut down already).
-        Before Genial I was at <a href="https://www.qiniu.com/">Qiniu Ltd.</a>
-        , <a target="_blank" rel="noreferrer" href="https://www.wudizu.com/en/">Dangfei Tech</a>
-        , and <a target="_blank" rel="noreferrer" href="https://www.stec.net/">STEC</a>.
+      <p>
+        Hi, I&apos;m Zhiyu. I am a{' '}
+        <a target="_blank" rel="noreferrer" href="https://cs.shu.edu.cn/">
+          {' '}
+          Shanghai University CS
+        </a>{' '}
+        graduate, a current postgraduate student at{' '}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.cs.manchester.ac.uk/"
+        >
+          the University of Manchester (ACS: Software Engineering)
+        </a>
+        , and once the co-founder of Genial(unfortunately shut down already).
+        Before Genial I was at <a href="https://www.qiniu.com/">Qiniu Ltd.</a>,{' '}
+        <a target="_blank" rel="noreferrer" href="https://www.wudizu.com/en/">
+          Dangfei Tech
+        </a>
+        , and{' '}
+        <a target="_blank" rel="noreferrer" href="https://www.stec.net/">
+          STEC
+        </a>
+        .
       </p>
       {/* <ul className="actions">
         <li>
@@ -42,6 +60,6 @@ const SideBar = () => (
       <ContactIcons />
     </section>
   </section>
-);
+)
 
-export default SideBar;
+export default SideBar

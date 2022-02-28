@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import TableRow from './TableRow';
+import TableRow from './TableRow'
 
 const Table = ({ data }) => (
   <table>
     <tbody>
-      {data.map((pair) => (
+      {data.map(pair => (
         <TableRow
           format={pair.format}
           key={pair.label}
@@ -17,19 +17,21 @@ const Table = ({ data }) => (
       ))}
     </tbody>
   </table>
-);
+)
 
 Table.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.shape({
-    format: PropTypes.func,
-    label: PropTypes.string.isRequired,
-    link: PropTypes.string,
-    value: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.number,
-      PropTypes.string,
-    ]),
-  })).isRequired,
-};
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      format: PropTypes.func,
+      label: PropTypes.string.isRequired,
+      link: PropTypes.string,
+      value: PropTypes.oneOfType([
+        PropTypes.element,
+        PropTypes.number,
+        PropTypes.string
+      ])
+    })
+  ).isRequired
+}
 
-export default Table;
+export default Table

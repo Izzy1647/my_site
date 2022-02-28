@@ -1,14 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const TableRow = ({
-  label, link, value, format,
-}) => (
+const TableRow = ({ label, link, value, format }) => (
   <tr>
     <td width="70%">{label}</td>
     <td>{link ? <a href={link}>{format(value)}</a> : format(value)}</td>
   </tr>
-);
+)
 
 TableRow.propTypes = {
   format: PropTypes.func,
@@ -17,14 +15,14 @@ TableRow.propTypes = {
   value: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.number,
-    PropTypes.string,
-  ]),
-};
+    PropTypes.string
+  ])
+}
 
 TableRow.defaultProps = {
-  format: (x) => x,
+  format: x => x,
   link: null,
-  value: null,
-};
+  value: null
+}
 
-export default TableRow;
+export default TableRow

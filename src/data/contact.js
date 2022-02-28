@@ -1,10 +1,10 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 // import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn'
 // import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
 // import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope'
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
@@ -12,7 +12,7 @@ const data = [
   {
     link: 'https://github.com/Izzy1647',
     label: 'Github',
-    icon: faGithub,
+    icon: faGithub
   },
   // {
   //   link: 'https://facebook.com/md',
@@ -22,12 +22,12 @@ const data = [
   {
     link: 'https://www.instagram.com/rockabyzzy/',
     label: 'Instagram',
-    icon: faInstagram,
+    icon: faInstagram
   },
   {
     link: 'https://www.linkedin.com/in/%E4%B9%8B%E6%B8%9D-%E5%91%A8-4672a5104/',
     label: 'LinkedIn',
-    icon: faLinkedinIn,
+    icon: faLinkedinIn
   },
   // {
   //   link: 'https://angel.co/michael-d-angelo',
@@ -42,8 +42,8 @@ const data = [
   {
     link: 'mailto:zhouhoushu@126.com',
     label: 'Email',
-    icon: faEnvelope,
-  },
-];
+    icon: faEnvelope
+  }
+]
 
-export default data;
+export default data

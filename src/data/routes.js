@@ -2,24 +2,24 @@ const routes = [
   {
     index: true,
     label: 'Zhiyu Zhou',
-    path: '/',
+    path: '/'
   },
   {
     label: 'Resume',
-    path: '/resume',
+    path: '/resume'
   },
   {
     label: 'Projects',
-    path: '/projects',
+    path: '/projects'
   },
   {
     label: 'posts',
-    path: '/posts',
+    path: '/posts'
   },
   {
     label: 'Contact',
-    path: '/contact',
-  },
+    path: '/contact'
+  }
   // {
   //   label: 'About',
   //   path: '/about',
@@ -28,6 +28,6 @@ const routes = [
   //   label: 'Stats',
   //   path: '/stats',
   // },
-];
+]
 
-export default routes;
+export default routes
