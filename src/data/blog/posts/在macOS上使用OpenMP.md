@@ -1,7 +1,6 @@
 ---
 title: 在macOS上使用OpenMP
 date: 2020-05-06 19:01:21
-tags: [tips]
 ---
 
 #### 1. 安装libomp

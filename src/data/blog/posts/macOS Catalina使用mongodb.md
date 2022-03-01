@@ -1,7 +1,6 @@
 ---
 title: macOS Catalina使用mongodb
 date: 2020-03-02 20:21:21
-tags: [tips]
 ---
 
 macOS在更新成catalina后将Macintosh HD根目录更新为只读目录，因此无法在该目录下创建data/db目录存放数据库了。

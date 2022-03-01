@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
 const BlogCell = ({ data }) => (
   <article className="post" id="projects">
     <div className="title">
-      <h2 data-testid="heading">{data.title}</h2>
-      <div>
-        <Link to={`/detail/${data.title}`}>Read more</Link>
-      </div>
+      <h2 data-testid="heading">
+        <Link to={`/detail/${data.title}`}>{data.title}</Link>
+      </h2>
+      <p>{data.desc}</p>
     </div>
   </article>
 )
