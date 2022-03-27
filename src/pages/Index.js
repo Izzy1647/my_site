@@ -33,7 +33,8 @@ const Index = () => (
       <p>
         {' '}
         For now this website contains my <Link to="/resume">resume</Link>; some
-        snapshots of my <Link to="/projects">projects</Link>; and my{' '}
+        snapshots of my <Link to="/projects">projects</Link>; some of my{' '}
+        <Link to="/posts">posts</Link>; and my{' '}
         <Link to="/contact">contact details</Link> .
       </p>
       {/* <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p> */}
