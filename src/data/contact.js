@@ -6,13 +6,13 @@ const data = [
     label: 'Github',
     icon: <AiFillGithub />
   },
+  // {
+  //   link: 'https://www.instagram.com/rockabyzzy/',
+  //   label: 'Instagram',
+  //   icon: <AiFillInstagram />
+  // },
   {
-    link: 'https://www.instagram.com/rockabyzzy/',
-    label: 'Instagram',
-    icon: <AiFillInstagram />
-  },
-  {
-    link: 'https://www.linkedin.com/in/%E4%B9%8B%E6%B8%9D-%E5%91%A8-4672a5104/',
+    link: 'https://www.linkedin.com/in/zhiyu-zhou-4672a5104/',
     label: 'LinkedIn',
     icon: <AiFillLinkedin />
   },
