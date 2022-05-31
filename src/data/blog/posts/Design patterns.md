@@ -1,0 +1,79 @@
+Show the main component 
+
+
+
+
+
+What are the main function in composite component
+
+
+
+
+
+No architectural patterns in written questions
+
+Difference between:
+
+Composite / decorate
+
+Strategy / state
+
+
+
+# Design Patterns
+
+## 1. Strategy
+
+### 1.1 Intent
+
+To define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+
+### 1.2 Problem
+
+- Have alternative versions of an algorithm
+- Want to switch between them at runtime
+
+Using `switch` statement in one class makes the class too complex.
+
+### 1.3 Solution
+
+Use separate classes to implement different version of the algorithm. These classes are called **strategies**.
+
+The original class, called **context**, has a field for storing a reference to one of the strategies. The context delegates the work to a linked strategy object instead of executing it on its own.
+
+<img src="https://s1.ax1x.com/2022/05/31/X8q3xU.png" alt="q5siPP.png" style="zoom:40%;" />
+
+<img src="https://s1.ax1x.com/2022/05/31/X8qNZ9.png" alt="q5siPP.png" style="zoom:40%;" />
+
+## 2. State
+
+### 2.1 Intent
+
+To let an object alter its behavior when its internal state changes during runtime. It appears as if the object changed its class.
+
+### 2.2 Problem
+
+- Have object that needs to change its behavior at runtime, based on its state
+
+Using `if` or `switch` statements, again, will make the class complex, and if more states need to be added, the whole class needs to be modified.
+
+### 2.3 Solution
+
+Create new classes for all possible states of an object and extract all state-specific behaviors into these classes.
+
+The original object, called **context**, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
+
+<img src="https://s1.ax1x.com/2022/05/31/XGlU0S.png" alt="q5siPP.png" style="zoom:40%;" />
+
+### 2.4 Strategy vs State
+
+- Both are behavioral patterns;
+- Strategy: alternative algorithms, one class per algorithm; client pick one algorithm to use via the common strategy interface;
+- State: different state/role of the same object, one class per state; client pick one state to use via the common object interface.
+
+- In State pattern, the particular states may be aware of each other and initiate transitions from one state to another, whereas strategies almost never know about each other.
+
+
+
+## 3. Decorater
+

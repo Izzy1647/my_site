@@ -6,7 +6,7 @@
 
 一句话来说，内存的生命周期就是：**先分配内存，再使用内存，最后释放内存**。分配和释放内存，JavaScript都会帮我们做；使用内存则是读/写分配好的内存空间，也就相当于读/写我们声明的常量、变量、对象等等。比如定义`let a = 2`，首先需要在内存里开辟一个存储`a`的空间；然后我们就可以对其进行读和写，比如赋值为2；当这个`a`不再被需要的时候，就将这块空间释放。
 
-[<img src="https://s1.ax1x.com/2022/04/01/q5siPP.png" alt="q5siPP.png" style="zoom:33%;" />](https://imgtu.com/i/q5siPP)
+<img src="https://s1.ax1x.com/2022/04/01/q5siPP.png" alt="q5siPP.png" style="zoom:33%;" />
 
 ## 2. 堆内存和栈内存(The memory heap and stack)
 
@@ -16,7 +16,7 @@
 
 所有**静态**的数据都会被存储在栈内存中。这个静态意味着他们的大小在**编译**时(compile time)就是固定的，只需要开辟一个固定大小的空间就可以。在JavaScript里，静态的数据包括原始值(primitive values)：String、Number、Boolean、Undefined、Null，以及对象的**引用**。这里并不是对象本身，而是指向这个对象的引用。可以想象，对象本身是动态的，但是这个引用是静态的。
 
-[<img src="https://s1.ax1x.com/2022/04/02/q5o3kT.png" alt="q5o3kT.png" style="zoom: 50%;" />](https://imgtu.com/i/q5o3kT)
+<img src="https://s1.ax1x.com/2022/04/02/q5o3kT.png" alt="q5o3kT.png" style="zoom: 50%;" />
 
 ### 2.2 堆内存
 
@@ -36,7 +36,7 @@
 
 前面提到**对象的引用**存储在栈内存中，而**对象**存储在堆内存中。这一点在[第四版JavaScript高级程序设计](https://github.com/WebHero0544/books/blob/master/Professional.JavaScript.for.Web.Developers.4th.Edition.2019.10.pdf)的第四章中可以找到清晰的图解，或者也可以看这张图：
 
-[<img src="https://s1.ax1x.com/2022/04/02/q5o69e.png" alt="q5o69e.png" style="zoom: 50%;" />](https://imgtu.com/i/q5o69e)
+<img src="https://s1.ax1x.com/2022/04/02/q5o69e.png" alt="q5o69e.png" style="zoom: 50%;" />
 
 
 
