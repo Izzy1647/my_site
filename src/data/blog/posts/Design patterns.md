@@ -89,6 +89,8 @@ To attach new behaviors to objects by placing these objects inside special wrapp
 
 Use a decorator (or can be called as a wrapper) to 'enhance' the object.
 
+![Structure of the Decorator design pattern](https://refactoring.guru/images/patterns/diagrams/decorator/structure.png)
+
 A **wrapper** is an object that can be linked with some target object. The wrapper contains the same set of methods as the target and delegates to it all requests it receives. However, the wrapper may alter the result by doing something either before or after it passes the request to the target, and this is where the 'enhancement' comes from.
 
 ![The solution with the Decorator pattern](https://refactoring.guru/images/patterns/diagrams/decorator/solution2.png?id=3af1a4b6994c29000217c229f7d392e4)
@@ -116,4 +118,56 @@ To compose objects into tree structures and then work with these structures as i
 - How to treat individual objects and their compositions uniformly
 
 Only makes sense when the core model structures like a tree.
+
+![Structure of a complex order](https://refactoring.guru/images/patterns/diagrams/composite/problem-en.png)
+
+### 4.3 Solution
+
+Work with composite components and leaf components in a unified way, say, through a common interface.
+
+![Structure of the Composite design pattern](https://refactoring.guru/images/patterns/diagrams/composite/structure-en.png)
+
+Four participants:
+
+- **Component**: defines the common interface for both simple(individual/primitive) and complex(composite) elements in the tree.
+- **Leaf**: defines behavior for primitive objects in the composition. Serves as 'basic' or 'simple' elements in the tree. Doesn't have sub-elements.
+- **Composite**: or a container, has sub-elements: leaves or other composites(containers). Stores a list of child elements (both primitive objects and composite objects). Implements child/structure related operations (add child, remove child, get children, etc). 
+- **Client**: works with all elements via component interface, in a unified way with both simple and complex elements.
+
+
+
+![Structure of the Composite example](https://refactoring.guru/images/patterns/diagrams/composite/example.png)
+
+
+
+### 4.4 Composite vs Decorator
+
+Both are structural patterns.
+
+Difference:
+
+- Composite is for object composition: composes multiple objects into a single one.
+- Decorator is for function/feature extension: adds additional features to a leaf object.
+
+- Decorator adds additional responsibilities to the wrapped object
+- Composite just “sums up” its children’s results.
+
+
+
+## 5. Observer
+
+### 5.1 Intent
+
+Create a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+
+### 5.2 Solution
+
+Two main components:
+
+- **Observer**: the object that watches on the state of another object;
+- **Subject**: the object that is being watched.
+
+![img](https://www.journaldev.com/wp-content/uploads/2013/07/observer-pattern.png)
+
+
 
