@@ -77,3 +77,43 @@ The original object, called **context**, stores a reference to one of the state 
 
 ## 3. Decorater
 
+### 3.1 Intent
+
+To attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
+### 3.2 Problem
+
+- Add additional feature to an object without using complex multiple inheritance.
+
+### 3.3 Solution
+
+Use a decorator (or can be called as a wrapper) to 'enhance' the object.
+
+A **wrapper** is an object that can be linked with some target object. The wrapper contains the same set of methods as the target and delegates to it all requests it receives. However, the wrapper may alter the result by doing something either before or after it passes the request to the target, and this is where the 'enhancement' comes from.
+
+![The solution with the Decorator pattern](https://refactoring.guru/images/patterns/diagrams/decorator/solution2.png?id=3af1a4b6994c29000217c229f7d392e4)
+
+
+
+Client code be like:
+
+![Apps might configure complex stacks of notification decorators](https://refactoring.guru/images/patterns/diagrams/decorator/solution3-en.png?id=b7e2e2036435265350ba0c6796162ab5)
+
+Another example (from the slides):
+
+![img](https://www.journaldev.com/wp-content/uploads/2013/07/decorator-pattern.png)
+
+
+
+## 4. Composite
+
+### 4.1 Intent
+
+To compose objects into tree structures and then work with these structures as if they were individual objects.
+
+### 4.2 Problem
+
+- How to treat individual objects and their compositions uniformly
+
+Only makes sense when the core model structures like a tree.
+
