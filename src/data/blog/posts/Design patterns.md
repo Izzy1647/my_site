@@ -164,10 +164,24 @@ Create a subscription mechanism to notify multiple objects about any events that
 
 Two main components:
 
-- **Observer**: the object that watches on the state of another object;
-- **Subject**: the object that is being watched.
+- **Observer**: the object that watches on the state of another object. Provides a method for the subject to notify any changes; provides a method to set a subject to observe.
+- **Subject**: the object that is being watched. Provides method for an observer objet to register and unregister; has a method to notify all observers.
 
 ![img](https://www.journaldev.com/wp-content/uploads/2013/07/observer-pattern.png)
 
+### 5.3 Publisher - Subscriber
+
+**Publisher-Subscriber** pattern is a specific implementation of Observer pattern where:
+
+- **Publisher = Subject**
+  - Stores a list of subscribers
+  - Provides a method for subscribers(observers) to register/unregister
+  - Provides a method to notify all subscribers(observers)
+
+- **Subscriber = Observer**
+  - Provides a method to get notified
+  - Provides a method to register with the publisher
 
 
+
+## 6. Mediator
