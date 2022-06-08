@@ -9,8 +9,9 @@ import ReactMarkdown from 'react-markdown'
 const BlogDetail = ({ title }) => {
   // const title = '2020年的第一场雪';
   // uses babel to load contents of file
-  const markdown = raw(`../../data/blog/posts/${title}.md`)
-  return <ReactMarkdown source={markdown} escapeHtml={false} />
+  // const markdown = raw(`../../data/blog/posts/${title}.md`)
+  // return <ReactMarkdown source={markdown} escapeHtml={false} />
+  return <></>
 }
 
 // BlogDetail.propTypes = {
