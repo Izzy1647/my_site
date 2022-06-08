@@ -5,7 +5,7 @@ import posts from '../data/blog/posts'
 
 const Posts = () => (
   <Main title="Posts" description="My blog posts.">
-    {posts.map(item => (
+    {/* {posts.map(item => (
       <Blog
         data={{
           title: item.title,
@@ -13,7 +13,9 @@ const Posts = () => (
           desc: item.desc
         }}
       />
-    ))}
+    ))} */}
+    My posts are now moved to a seperated site:{' '}
+    <a href="https://blog-zhiyu-zhou.vercel.app/" target="_blank">👉CLICK HERE</a>
   </Main>
 )
 

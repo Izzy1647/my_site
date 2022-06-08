@@ -22,7 +22,17 @@ const Navigation = () => (
           .filter(l => !l.index)
           .map(l => (
             <li key={l.label}>
-              <Link to={l.path}>{l.label}</Link>
+              {l.newTab ? (
+                <a
+                  target={'_blank'}
+                  rel="noopener noreferrer"
+                  href="https://blog-zhiyu-zhou.vercel.app/"
+                >
+                  {l.label}
+                </a>
+              ) : (
+                <Link to={l.path}>{l.label}</Link>
+              )}
             </li>
           ))}
       </ul>

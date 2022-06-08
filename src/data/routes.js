@@ -14,7 +14,8 @@ const routes = [
   },
   {
     label: 'posts',
-    path: '/posts'
+    path: 'https://blog-zhiyu-zhou.vercel.app/',
+    newTab: true
   },
   {
     label: 'Contact',
