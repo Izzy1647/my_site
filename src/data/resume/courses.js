@@ -22,6 +22,18 @@ const courses = [
     number: 'COMP62421',
     link: 'https://www.manchester.ac.uk/study/masters/courses/list/02069/msc-advanced-computer-science/course-details/COMP62421#course-unit-details',
     university: 'UoM'
+  },
+  {
+    title: 'Component Based Software Engineering',
+    number: 'COMP62532',
+    // link: 'https://www.manchester.ac.uk/study/masters/courses/list/02069/msc-advanced-computer-science/course-details/COMP62421#course-unit-details',
+    university: 'UoM'
+  },
+  {
+    title: 'Pattern Based Software Engineering',
+    number: 'COMP62542',
+    // link: 'https://www.manchester.ac.uk/study/masters/courses/list/02069/msc-advanced-computer-science/course-details/COMP62421#course-unit-details',
+    university: 'UoM'
   }
 ]
 

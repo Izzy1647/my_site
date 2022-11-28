@@ -20,7 +20,7 @@ const positions = [
     description: 'Worked on machine data analysis platform: Pandora 2.0.',
     points: [
       'Develop React components for new features;',
-      'Write components docs with Storybook;',
+      'Write component docs with Storybook;',
       'Write unit tests with Jest.'
     ]
   },
