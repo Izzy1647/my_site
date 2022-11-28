@@ -5,6 +5,17 @@ import App from './App'
 // See https://reactjs.org/docs/strict-mode.html
 const StrictApp = () => (
   <React.StrictMode>
+    <header style={{
+      "text-align": "center",
+      "border": "solid",
+      "background": "black",
+      "color": "white",
+      "fontWeight": "bold",
+      "letterSpacing": "4px"
+
+    }}>
+      No Control, No Lockdown, Let People Talk 🇨🇳
+    </header>
     <App />
   </React.StrictMode>
 )
