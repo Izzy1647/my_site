@@ -14,7 +14,7 @@ const StrictApp = () => (
       "letterSpacing": "4px"
 
     }}>
-      No Control, No Lockdown, Let People Talk 🇨🇳
+      No Control, No Lockdown, Let People Speak 🇨🇳
     </header>
     <App />
   </React.StrictMode>
