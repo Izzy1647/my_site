@@ -1,6 +1,16 @@
 /* eslint-disable max-len */
 const positions = [
   {
+    company: 'Huawei Technologies',
+    position: 'Software Engineer',
+    link: 'https://carrier.huawei.com/en/adn',
+    daterange: 'Janurary 2023 - present',
+    description:
+      'Full stack development on MAE web platform.',
+    points: [
+    ]
+  },
+  {
     company: 'Genial',
     position: 'Co-founder',
     link: 'http://www.genial.ltd',
@@ -8,8 +18,8 @@ const positions = [
     description:
       'Tried to build career connections for users by matching them with others and setting up video meetings for them.',
     points: [
-      'Built the site and deployed it onto Aliyun cloud server.',
-      'Used Agora sdk for video meeting module.'
+      'Build the site and deploy it onto Aliyun cloud server.',
+      'Use Agora sdk for video meeting module.'
     ]
   },
   {
