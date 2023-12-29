@@ -64,10 +64,8 @@ const skills = [
 const colors = [
   '#6968b3',
   '#141415',
-  // '#40D04F',
   '#034694', // chelsea blue
   '#FEC524', // nuggets yellow
-  '#EE2737' // shu red ...sheffield united!
 ]
 
 const categories = [

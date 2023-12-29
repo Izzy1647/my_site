@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Coding Interview Simulation',
+    subtitle: 'CIM',
+    link: 'https://zhiyuzhou.itch.io/coding-interview-simulation',
+    image: '/images/projects/cim.jpg',
+    date: '2022-08-01',
+    desc: 'An interactive fiction game that simulates the process of tech interviews (as the interviewer). Designed and developed for education use only.'
+  },
+  {
     title: 'Teamcolor',
     subtitle: 'Teamcolor',
     link: 'https://teamcolor.vercel.app',
