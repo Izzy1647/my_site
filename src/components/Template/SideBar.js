@@ -13,7 +13,7 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Zhiyu Zhou</h2>
-        <p>+44 7902405064</p>
+        {/* <p>+44 7902405064</p> */}
         <p>
           <a href="mailto:zhouhoushu@126.com">zhouhoushu@126.com</a>
         </p>
@@ -24,24 +24,21 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Zhiyu. I am a{' '}
-        <a target="_blank" rel="noreferrer" href="https://cs.shu.edu.cn/">
-          {' '}
-          Shanghai University CS
-        </a>{' '}
-        graduate, a current postgraduate student at{' '}
         <a
           target="_blank"
           rel="noreferrer"
           href="https://www.cs.manchester.ac.uk/"
         >
-          the University of Manchester (ACS: Software Engineering)
-        </a>
-        , and once the co-founder of Genial(unfortunately shut down already).
-        Before Genial I was at <a href="https://www.qiniu.com/">Qiniu Ltd.</a>,{' '}
-        <a target="_blank" rel="noreferrer" href="https://www.wudizu.com/en/">
-          Dangfei Tech
-        </a>
-        , and{' '}
+          University of Manchester (ACS: Software Engineering)
+        </a>{' '}
+        and{' '}
+        <a target="_blank" rel="noreferrer" href="https://cs.shu.edu.cn/">
+          {' '}
+          Shanghai University (Computer Science)
+        </a>{' '}
+        graduate; a current <a href="https://www.huawei.com/en/">Huawei</a> software engineer, and once the co-founder of Genial(unfortunately shut down
+        already). Before Genial I was at{' '}
+        <a href="https://www.qiniu.com/">Qiniu Ltd.</a>,{' '}and{' '}
         <a target="_blank" rel="noreferrer" href="https://www.stec.net/">
           STEC
         </a>

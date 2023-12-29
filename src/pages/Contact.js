@@ -16,7 +16,7 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>My phone number: +44 7902405064 </p>
+        {/* <p>My phone number: +44 7902405064 </p> */}
         Email me at: <a href="mailto:zhouhoushu@126.com">zhouhoushu@126.com</a>
         <p>Or with any icon down there ⬇️</p>
       </div>
